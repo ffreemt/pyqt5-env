@@ -1,20 +1,16 @@
 [tool.poetry]
-name = "py38-env"
+name = "pyqt5-env"
 version = "0.1.0"
 description = ""
-authors = ["ffreemt <yucongo+fmt@gmail.com>"]
+authors = ["freemt <yucongo+fmt@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-logzero = "^1.5.0"
-loguru = "^0.5.2"
-pyqt5 = "^5.15.0"
-bs4 = "^0.0.1"
-pyqt5-tools = "^5.15.0"
+logzero = "^1.7.0"
+loguru = "^0.6.0"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
 
 [build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
