@@ -14,11 +14,6 @@ pyqt5-tools = "^5.15.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
-<<<<<<< HEAD
-=======
-ipython = "^7.18.1"
-pylint = "^2.6.0"
->>>>>>> 7247e5abcdde440183a334faf73a671582cd1eef
 
 [build-system]
 requires = ["poetry>=0.12"]
