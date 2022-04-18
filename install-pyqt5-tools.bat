@@ -1,1 +1,1 @@
-poetry add pyqt5-tools~=5.15 
+pip install pyqt5-tools~=5.15

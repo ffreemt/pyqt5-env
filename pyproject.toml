@@ -8,6 +8,7 @@ authors = ["freemt <yucongo+fmt@gmail.com>"]
 python = "^3.8"
 logzero = "^1.7.0"
 loguru = "^0.6.0"
+bs4 = "^0.0.1"
 
 [tool.poetry.dev-dependencies]
 
